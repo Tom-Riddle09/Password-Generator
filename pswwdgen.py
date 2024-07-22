@@ -2,6 +2,7 @@ import tkinter as tk
 import random
 import pickle
 import os
+import string
 
 FILE_PATH = os.getcwd()#Obtains the current directory of the file
 
@@ -16,13 +17,9 @@ def pswdgen():
         instrct.destroy()
         btn.destroy()
         entry.destroy()
-        lwr = 'abcdefghijklmnopqrstuvwxyz'
-        uppr = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-        num = '1234567890'
-        symbl  = '[]{}()+;/,_-.!@#$%^&'
-        all = lwr + uppr + num + symbl
+        characters = string.ascii_letters + string.digits + string.punctuation
         lent = 16
-        passwrd = "".join(random.sample(all,lent))
+        passwrd = ''.join(random.choice(characters) for i in range(lent))
         lbl_show = tk.Label(master=frame,text="Generated Password [copy the text]",fg="white",bg="#808080")
         lbl_show.place(x=20,y=20)
         ent_pswd= tk.Entry(master=frame,fg="black",bg="white",width=20)
@@ -31,7 +28,8 @@ def pswdgen():
         op=open(FILE_PATH+'\\psswd.p', 'rb')
         dct=pickle.load(op)
         op.close()
-        dct={}
+        print(dct)#
+        #dct={}
         dct[accname] = passwrd
         with open(FILE_PATH+'\\psswd.p', 'wb') as fp: 
             pickle.dump(dct, fp, protocol=pickle.HIGHEST_PROTOCOL)
