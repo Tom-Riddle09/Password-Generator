@@ -1,18 +1,38 @@
------ BLACKFLY TOOLKIT----
+#Privacy Guard V2.0
 
---Password Generator--
+##Project Description
+1. A personal use software to safe-guard your privacy.
+2. Generate/Save passwords.
+3. Generate fake identities for any online sign-up, so that you won't have to share your personal details if you don't want to do so.
+4. Made completely using python: tkinter , pickle libraries.
 
-This project is made using python and tkinter library.
-It is a simple password generator which generates 16 digit sophisticated passwords for your online / offline accounts.The pupose of this project is to improve overall security of out accounts and devices.
+##Files included
+1.Fake-list.csv : contains about 50 K American based fake identities.
+2.psswd.p : A pickle file to store all your passwords and your current active fake identity.
+3.pswwdgen.py: Source code for the project.
+4.psswwdgen.pyw: GUI executable type source code for the project.
+5.requirements.txt : A file with all required dependencies.
 
-=== INSTRUCTIONS ===
+##Usage
+1.Run 'pip install requirements.txt'
+2.Run either pswwdgen.py or pswwdgen.pyw to start the program
 
-4 files included 
-1. exe file
-2. pyw file -can be run directly as an app if you have all the prerequisite libraries & python installed on your PC. 
-3. py file -source code for the app
-4.psswd.p -pickle file for storage and retrival of the passwords.
-
-ALWAYS CREATE/HAVE A "psswd.p" FILE IN THE CURRENT WORKING DIRECTORY OF THE APP! (file already present in the repo.)
-
-That's it!! Use the generated passwords to secure your accounts.
+##Ethical Considerations  
+###Disclaimer  This software generates fictional identities for private browsing purposes. 
+  While we encourage ethical and legal use, we want to emphasize that any misuse or illegal activity carried out using these generated identities is solely the responsibility of the user.  
+By using this software, you agree to use it in compliance with all applicable laws and regulations.  
+  
+All Fake identites are obtained from http://www.fakenamegenerator.com/
+  ###COPYRIGHT AND DISTRIBUTION  
+  
+Fake Name Generator identities are copyright 2012 Corban Works, LLC.  
+  
+Fake Name Generator identities are dual-licensed under the GPLv3 and Creative  
+Commons Attribution-Share Alike 3.0 United States licenses. You may choose  
+either license, but are bound to the terms of the license you choose. You may  
+not use the Fake Name Generator identities without choosing a license.  
+  
+For full license details, please visit:  
+http://www.fakenamegenerator.com/license.php
+  
+####-TomRiddle-
