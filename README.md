@@ -7,18 +7,19 @@
 4. Made completely using python: tkinter , pickle libraries.
 
 ## Files included
-1.Fake-list.csv : contains about 50 K American based fake identities.
-2.psswd.p : A pickle file to store all your passwords and your current active fake identity.
-3.pswwdgen.py: Source code for the project.
-4.psswwdgen.pyw: GUI executable type source code for the project.
-5.requirements.txt : A file with all required dependencies.
+1. Fake-list.csv : contains about 50 K American based fake identities.
+2. psswd.p : A pickle file to store all your passwords and your current active fake identity.
+3. pswwdgen.py: Source code for the project.
+4. psswwdgen.pyw: GUI executable type source code for the project.
+5. requirements.txt : A file with all required dependencies.
 
 ## Usage
-1.Run 'pip install requirements.txt'
-2.Run either pswwdgen.py or pswwdgen.pyw to start the program
+1. Run 'pip install requirements.txt'
+2. Run either pswwdgen.py or pswwdgen.pyw to start the program
 
 ## Ethical Considerations  
-### Disclaimer  This software generates fictional identities for private browsing purposes. 
+### DISCLAIMER  
+This software generates fictional identities for private browsing purposes. 
   While we encourage ethical and legal use, we want to emphasize that any misuse or illegal activity carried out using these generated identities is solely the responsibility of the user.  
 By using this software, you agree to use it in compliance with all applicable laws and regulations.  
   
