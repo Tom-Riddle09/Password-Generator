@@ -1,4 +1,4 @@
-# Privacy Guard V2.0
+# Privacy Guard v2.0
 
 ## Project Description
 1. A personal use software to safe-guard your privacy.
